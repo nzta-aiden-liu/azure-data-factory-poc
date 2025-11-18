@@ -1,0 +1,9 @@
+{
+	"name": "adf-warehouse-tis",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b8d839dd-2102-4548-b8c8-62536e9fb64e",
+		"tenantId": "30809399-2dd4-4773-8f0c-49834fd712ff"
+	}
+}

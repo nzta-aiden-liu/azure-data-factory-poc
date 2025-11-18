@@ -1,0 +1,11 @@
+{
+	"name": "linkedService1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://stwarehousetis.dfs.core.windows.net/"
+		}
+	}
+}
