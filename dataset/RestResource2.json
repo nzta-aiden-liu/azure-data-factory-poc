@@ -1,0 +1,24 @@
+{
+    "name": "RestResource2",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "RestService1",
+            "type": "LinkedServiceReference",
+            "parameters": {
+                "url": {
+                    "value": "@dataset().url",
+                    "type": "Expression"
+                }
+            }
+        },
+        "parameters": {
+            "url": {
+                "type": "string"
+            }
+        },
+        "annotations": [],
+        "type": "RestResource",
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
